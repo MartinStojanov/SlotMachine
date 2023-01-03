@@ -95,6 +95,7 @@
             this.btnInfo.TabIndex = 38;
             this.btnInfo.Text = "PRIZE INFO";
             this.btnInfo.UseVisualStyleBackColor = true;
+            this.btnInfo.Click += new System.EventHandler(this.btnInfo_Click);
             // 
             // btnCASH
             // 
@@ -411,6 +412,7 @@
             this.Controls.Add(this.infolbl);
             this.Controls.Add(this.groupBox2);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "PlayForm";
             this.Text = "PlayForm";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.PlayForm_FormClosing);

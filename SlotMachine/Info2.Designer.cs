@@ -146,7 +146,7 @@
             this.groupBox8.Size = new System.Drawing.Size(224, 231);
             this.groupBox8.TabIndex = 20;
             this.groupBox8.TabStop = false;
-            this.groupBox8.Text = "Scatter";
+            this.groupBox8.Enter += new System.EventHandler(this.groupBox8_Enter);
             // 
             // textBox1
             // 
@@ -533,6 +533,7 @@
             this.Controls.Add(this.groupBox5);
             this.Controls.Add(this.groupBox8);
             this.Controls.Add(this.groupBox7);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Info2";
             this.Text = "Info2";
             this.groupBox7.ResumeLayout(false);
